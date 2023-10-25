@@ -1,12 +1,12 @@
-import Image from "next/image";
-import { Poppins } from "next/font/google";
+import Image from 'next/image'
+import { Poppins } from 'next/font/google'
 
-import { cn } from "@/lib/utils";
+import { cn } from '@/lib/utils'
 
 const font = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "600"]
-});
+  subsets: ['latin'],
+  weight: ['400', '600']
+})
 
 export const Logo = () => {
   return (
@@ -25,9 +25,7 @@ export const Logo = () => {
         alt="Logo"
         className="hidden dark:block"
       />
-      <p className={cn("font-semibold", font.className)}>
-        Jotion
-      </p>
+      <p className={cn('font-semibold', font.className)}>Jotion</p>
     </div>
   )
 }
