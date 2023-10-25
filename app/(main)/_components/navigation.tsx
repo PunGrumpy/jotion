@@ -25,10 +25,10 @@ import {
 import { useSearch } from '@/hooks/use-search'
 import { useSettings } from '@/hooks/use-settings'
 
-import { UserItem } from './user-item'
+import { UserItem } from './userItem'
 import { Item } from './item'
 import { DocumentList } from './document-list'
-import { TrashBox } from './trash-box'
+import { TrashBox } from './trashBox'
 import { Navbar } from './navbar'
 
 export const Navigation = () => {

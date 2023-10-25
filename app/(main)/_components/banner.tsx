@@ -7,7 +7,7 @@ import { toast } from 'sonner'
 import { Id } from '@/convex/_generated/dataModel'
 import { api } from '@/convex/_generated/api'
 import { Button } from '@/components/ui/button'
-import { ConfirmModal } from '@/components/modals/confirm-modal'
+import { ConfirmModal } from '@/components/modals/confirmModal'
 
 interface BannerProps {
   documentId: Id<'documents'>

@@ -5,7 +5,7 @@ import { SignInButton, UserButton } from '@clerk/clerk-react'
 import Link from 'next/link'
 
 import { useScrollTop } from '@/hooks/use-scroll-top'
-import { ModeToggle } from '@/components/mode-toggle'
+import { ThemeToggle } from '@/components/themeToggle'
 import { Button } from '@/components/ui/button'
 import { Spinner } from '@/components/spinner'
 import { cn } from '@/lib/utils'
@@ -46,7 +46,7 @@ export const Navbar = () => {
             <UserButton afterSignOutUrl="/" />
           </>
         )}
-        <ModeToggle />
+        <ThemeToggle />
       </div>
     </div>
   )

@@ -3,7 +3,7 @@
 import { Dialog, DialogContent, DialogHeader } from '@/components/ui/dialog'
 import { useSettings } from '@/hooks/use-settings'
 import { Label } from '@/components/ui/label'
-import { ModeToggle } from '@/components/mode-toggle'
+import { ThemeToggle } from '@/components/themeToggle'
 
 export const SettingsModal = () => {
   const settings = useSettings()
@@ -21,7 +21,7 @@ export const SettingsModal = () => {
               Customize how Jotion looks on your device
             </span>
           </div>
-          <ModeToggle />
+          <ThemeToggle />
         </div>
       </DialogContent>
     </Dialog>

@@ -23,7 +23,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator
-} from '@/components/ui/dropdown-menu'
+} from '@/components/ui/dropdownMenu'
 
 interface ItemProps {
   id?: Id<'documents'>

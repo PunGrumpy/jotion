@@ -13,7 +13,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator
-} from '@/components/ui/dropdown-menu'
+} from '@/components/ui/dropdownMenu'
 import { api } from '@/convex/_generated/api'
 import { Button } from '@/components/ui/button'
 import { Skeleton } from '@/components/ui/skeleton'
